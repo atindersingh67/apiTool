@@ -30,7 +30,7 @@
 <div class="container">
 <form>
   <div class="form-group row " style="padding-top: 80px;">
-    <label for="staticEmail" class="col-sm-2 col-form-label">Name</label>
+    <label for="staticEmail" class="col-sm-2 col-form-label">Name *</label>
     <div class="col-sm-10">
      <input type="text" class="form-control" id="name" ng-model="ap.apiObj.name" placeholder="Name">
     </div>
