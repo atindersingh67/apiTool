@@ -1,5 +1,5 @@
-# apiTool
-#### Api Toll will generate a spring boot api for a domain class. You just need to enter a small detial on ui and it will create controller, Service, Dao and Domain classes with all crud operations for you.
+# Api Generator Tool
+#### Api Toll will generate a spring boot api for a domain class. You just need to enter some details on ui and it will create controller, Service, Dao and Domain classes with all crud operations for you.You can simply copy that in your project.
 
 
 
