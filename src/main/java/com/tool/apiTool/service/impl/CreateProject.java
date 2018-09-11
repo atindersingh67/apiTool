@@ -62,8 +62,8 @@ public class CreateProject implements ICreateService {
 		    	
 		    	File tempFile=new File(Constant.UPLOADED_PATH+entityDetail.getParentFolder());
 		    	String zipPath= Constant.UPLOADED_PATH+entityDetail.getParentFolder()+".zip";
-		    	///zipDirectory(tempFile,zipPath);
-		    	//FileSystemUtils.deleteRecursively(tempFile);
+		    	zipDirectory(tempFile,zipPath);
+		    	FileSystemUtils.deleteRecursively(tempFile);
 		    	return zipPath;
 			} catch (IOException e) {
 				e.printStackTrace();

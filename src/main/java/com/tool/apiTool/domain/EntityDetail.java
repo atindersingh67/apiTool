@@ -4,7 +4,13 @@ import java.io.Serializable;
 import java.util.List;
 
 import com.tool.apiTool.common.Constant;
-
+/**
+ * The EntityDetail is domain class
+ *
+ * @author Atinder
+ * @version 1.0
+ * @since 2018-09-10
+ */
 public class EntityDetail implements Serializable{
 	private String name;
 	private String packageName;
